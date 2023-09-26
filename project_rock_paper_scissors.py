@@ -64,7 +64,7 @@ else:
 #
 # game()
 
-#CHAT GPT v1
+#CHAT GPT v2
 # import random
 #
 # rock = "Rock"
