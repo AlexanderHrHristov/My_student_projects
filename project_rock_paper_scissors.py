@@ -35,7 +35,7 @@ elif player_move == computer_move:
 else:
     print("You lose!")
 
-
+#CHAT GPT v1
 # import random
 #
 # def game():
@@ -63,3 +63,66 @@ else:
 #         print("The computer wins!")
 #
 # game()
+
+#CHAT GPT v1
+# import random
+#
+# rock = "Rock"
+# paper = "Paper"
+# scissors = "Scissors"
+#
+# # ASCII art for the game elements
+# rock_image = """
+#     _______
+# ---'   ____)
+#       (_____)
+#       (_____)
+#       (____)
+# ---.__(___)
+# """
+#
+# paper_image = """
+#     _______
+# ---'   ____)____
+#           ______)
+#           _______)
+#          _______)
+# ---.__________)
+# """
+#
+# scissors_image = """
+#     _______
+# ---'   ____)____
+#           ______)
+#        __________)
+#       (____)
+# ---.__(___)
+# """
+#
+# elements = [rock, paper, scissors]
+# element_images = [rock_image, paper_image, scissors_image]
+#
+# player_choice = input("Choose [r]ock, [p]aper, [s]cissors: ")
+#
+# if player_choice == "r":
+#     player_choice = rock
+# elif player_choice == "p":
+#     player_choice = paper
+# elif player_choice == "s":
+#     player_choice = scissors
+# else:
+#     raise SystemExit("Invalid input. Try again?...")
+#
+# computer_choice = random.choice(elements)
+#
+# print(f"\nYou chose:\n{element_images[elements.index(player_choice)]}")
+# print(f"\nThe computer chose:\n{element_images[elements.index(computer_choice)]}")
+#
+# if player_choice == computer_choice:
+#     print("It's a draw!")
+# elif (player_choice == rock and computer_choice == scissors) or \
+#      (player_choice == paper and computer_choice == rock) or \
+#      (player_choice == scissors and computer_choice == paper):
+#     print("You win!")
+# else:
+#     print("You lose!")
